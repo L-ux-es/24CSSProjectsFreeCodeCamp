@@ -36,7 +36,6 @@ form {
 
 #searchInput:focus {
     width: 100%;
-    transition: width .5s;
     outline: none;
 }
 
