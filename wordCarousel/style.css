@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loved {
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+p::after {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px 10px;
+    content: "food";
+    animation: changeWord infinite 6s ease-in-out normal;
+}
+
+@keyframes changeWord {
+    0% {
+        content: "food";
+    }
+
+    33% {
+        content: "coding";
+    }
+
+    66% {
+        content: "dog";
+    }
+
+    100% {
+        content: "GitHub";
+    }
+}
