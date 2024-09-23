@@ -1,0 +1,53 @@
+:root {
+    --dimension-square: 50px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation-div {
+    display: flex;
+    flex-direction: row;
+    gap: calc(var(--dimension-square) + 5px);
+}
+
+.square {
+    width: var(--dimension-square);
+    height: var(--dimension-square);
+    animation: rotation 4s infinite ease normal;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    25% {
+        transform: rotate(135deg);  
+    }
+
+    75% {
+        transform: rotate(225deg);       
+    }
+
+    100% {
+        transform: rotate(315deg);
+    }
+}
+
+
+.square:nth-child(1) {
+    background-color: red;
+}
+
+.square:nth-child(2) {
+    background-color: orange;
+}
+
+.square:nth-child(3) {
+    background-color: blue;
+}
