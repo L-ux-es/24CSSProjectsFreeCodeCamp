@@ -24,6 +24,8 @@ body {
     border: 1px solid;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
+    min-height: var(--flag-height);
+    min-width: calc(var(--flag-height) * 5 / 3);
 }
 
 .flag-germany>.black {

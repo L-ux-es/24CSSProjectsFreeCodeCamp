@@ -17,6 +17,8 @@
     aspect-ratio: 3/2;
     border: 1px solid;
     display: flex;
+    min-height: var(--flag-height);
+    min-width: calc(var(--flag-height) * 3 / 2);
 }
 
 .stripe {
