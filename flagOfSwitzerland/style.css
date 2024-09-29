@@ -24,8 +24,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--red);
-    position: absolute;
-    z-index: 1;
+    position: relative;
 }
 
 .rectangle {
@@ -37,5 +36,4 @@
 .rectangle-rotate {
     transform: rotate(90deg);
     position: absolute;
-    z-index: 2;
 }
