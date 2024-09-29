@@ -1,0 +1,45 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --blue: #0269A6;
+    --yellow: #FECC00;
+    --flag-height: 150px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flag-sweden {
+    width:  50vw;
+    aspect-ratio: 8/5;
+    display: flex;
+    align-items: center;
+    background-color: var(--blue);
+    position: relative;
+}
+
+.rectangle {
+    background-color: var(--yellow);
+    border: none;
+}
+
+.horizontal {
+    height: calc(100% *2/10);
+    width: 100%;
+}
+
+.vertical {
+    width: calc(100% * 2/16);
+    height: 100%;
+    position: absolute;
+    left: calc(100% * 5/16);
+}
