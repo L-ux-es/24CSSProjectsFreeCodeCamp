@@ -1,0 +1,50 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --orange: #E15307;
+    --white: #FFFFFF;
+    --green: #10AF2A;
+    --flag-height: 200px;
+}
+
+.container {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-niger {
+    width: 50vw;
+    aspect-ratio: 7/6;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.flag-niger>.orange {
+    background-color: var(--orange);
+}
+
+.flag-niger>.white {
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-niger>.green {
+    background-color: var(--green);
+}
+
+.white>.circle {
+    height: 85%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--orange);
+}
