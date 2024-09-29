@@ -1,0 +1,41 @@
+:root {
+    --white: #fff;
+    --red: #ff0002;
+    --flag-height: 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-switzerland {
+    width: 50vh;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--red);
+    position: absolute;
+    z-index: 1;
+}
+
+.rectangle {
+    width: calc(100% * 5 / 8);
+    height: calc(100% * 3 / 16);
+    background-color: var(--white);
+}
+
+.rectangle-rotate {
+    transform: rotate(90deg);
+    position: absolute;
+    z-index: 2;
+}
