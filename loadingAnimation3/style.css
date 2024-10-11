@@ -1,0 +1,35 @@
+html,
+body {
+    margin: 0;
+}
+
+:root {
+    --spinner: #f3f3f3;
+    --spinner-active: purple;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    height: 40vh;
+    aspect-ratio: 1;
+    border: 40px solid var(--spinner);
+    border-radius: 50%;
+    border-top-color: var(--spinner-active);
+    animation: spinner 1.5s infinite linear;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
