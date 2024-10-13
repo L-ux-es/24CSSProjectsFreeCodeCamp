@@ -1,6 +1,7 @@
 # Expanding Search Button
 
 Expand a search button
+
 ## Example
 
 ![Search Button](/expandingSearchBar/SearchBar.png)

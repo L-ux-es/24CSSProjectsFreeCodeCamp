@@ -36,5 +36,3 @@ flag and 5/8 the width of the flag.
      --red:#FF0092;
      --flag-height:200px;
     }
-
-
