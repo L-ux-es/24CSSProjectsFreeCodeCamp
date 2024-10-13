@@ -1,8 +1,6 @@
 # Toggle Switch
 
- <video alt="Toggle Switch" controls>
-        <source src="./ToggleSwitch.mp4" type="video/mp4">
-    </video>
+ ![Toggle Switch](ToggleSwitch.gif)
 
 ## Requirements
 
