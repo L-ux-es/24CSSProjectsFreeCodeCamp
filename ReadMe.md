@@ -35,4 +35,4 @@ Challenges created by Treasure Porth. You can watch the YouTube video [here](htt
 
 Follow Treasure Porth in [GitHub](https://github.com/trezp)
 
-[FreeCodeCamp web](freecodecamp.com)
+[FreeCodeCamp web](https://www.freecodecamp.org)
