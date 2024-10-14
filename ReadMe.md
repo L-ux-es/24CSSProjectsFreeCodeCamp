@@ -33,6 +33,6 @@ Challenges created by Treasure Porth. You can watch the YouTube video [here](htt
 
 ## Acknowledge
 
-Follow Treasure Porth in [GitHub](github/trezp)
+Follow Treasure Porth in [GitHub](https://github.com/trezp)
 
 [FreeCodeCamp web](freecodecamp.com)
