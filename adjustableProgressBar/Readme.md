@@ -23,35 +23,40 @@ Build a progress bar that you can change by swapping classes. Style a class for 
 
 ## Hint
 
-It may help to think the progress bar as two elements, one on top of another: an outer progress bar and an inner progress bar. How can you use the width of the inner progress bar to create the effect of the outer progress bar filling?
+It may help to think the progress bar as two elements, one on top of another: an outer progress bar and an inner
+progress bar. How can you use the width of the inner progress bar to create the effect of the outer progress bar
+filling?
 
 ## Provided code
 
 ### HTML
 
-     <div class="container">
-      <div class="progress-bar">
+````html
+<div class="container">
+    <div class="progress-bar">
         <div class="prog-status stage-4"></div>
-      </div>
     </div>
+</div>
+````
 
 ### CSS
 
-    html,
-    body {
-        margin: 0;
-        padding: 0;
-    }
+```css
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
 
-    :root {
-        --stage-1: 25%;
-        --stage-2: 50%;
-        --stage-3: 75%;
-        --stage-4: 100%;
-        --progbar-bg: lightgray;
-        --stage-1-bg: red;
-        --stage-2-bg: orangered;
-        --stage-3-bg: greenyellow;
-        --stage-4-bg: green;
-    }
-
+:root {
+    --stage-1: 25%;
+    --stage-2: 50%;
+    --stage-3: 75%;
+    --stage-4: 100%;
+    --progbar-bg: lightgray;
+    --stage-1-bg: red;
+    --stage-2-bg: orangered;
+    --stage-3-bg: greenyellow;
+    --stage-4-bg: green;
+}
+```

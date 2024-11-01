@@ -17,23 +17,26 @@
 
 ### HTML
 
-    <div class="container">
-        <div class="progress-bar">
-            <div class="progress-bar progress-status"></div>
-        </div>
+````html
+<div class="container">
+    <div class="progress-bar">
+        <div class="progress-bar progress-status"></div>
     </div>
+</div>
 
+````
 ### CSS
+```css
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
 
-    html,
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
-    :root {
-        --progressbar-bg: lightgrey;
-        --start: red;
-        --middle: blue;
-        --finish: green;
-    }
+:root {
+    --progressbar-bg: lightgrey;
+    --start: red;
+    --middle: blue;
+    --finish: green;
+}
+```

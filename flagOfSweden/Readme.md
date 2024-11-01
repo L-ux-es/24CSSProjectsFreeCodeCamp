@@ -16,9 +16,11 @@ Flag ratio: **5:4**
 
 Flag height: **200px**
 
-    .country-flag{
-     width:calc(200px*4/5);
-    }
+```css
+    .country-flag {
+    width: calc(200px * 4 / 5);
+}
+```
 
 ## Hint
 
@@ -32,14 +34,16 @@ Flag height: **200px**
 
 ### CSS
 
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-    }
+```css
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
 
-    :root {
-      --blue: #0269A6;
-      --yellow: #FECC00;
-      --flag-height: 150px;
-    }
+:root {
+    --blue: #0269A6;
+    --yellow: #FECC00;
+    --flag-height: 150px;
+}
+```

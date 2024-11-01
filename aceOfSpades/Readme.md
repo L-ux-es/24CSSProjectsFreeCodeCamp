@@ -12,28 +12,33 @@
 
 ### HTML
 
-    <div class="container">
-      <div class="card">
+```html
+<div class="container">
+    <div class="card">
         <div class="top">
-          <div>A</div>
-          <div>&spades;</div>
+            <div>A</div>
+            <div>&spades;</div>
         </div>
         <div class="center">&spades;</div>
         <div class="bottom">
-          <div>A</div>
-          <div>&spades;</div>
+            <div>A</div>
+            <div>&spades;</div>
         </div>
-      </div>
     </div>
+</div>
+```
 
 ### CSS
 
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-    }
+```css
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
 
-    :root {
-      --card-height: 200px;
-    }
+:root {
+    --card-height: 200px;
+}
+```
+

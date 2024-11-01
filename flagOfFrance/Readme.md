@@ -25,17 +25,21 @@ Flag height: **200px**
 
 ### HTML
 
-    <div class="flag-france">
-        <div class="blue stripe"></div>
-        <div class="white stripe"></div>
-        <div class="red stripe"></div>
-      </div>
+```html
+<div class="flag-france">
+    <div class="blue stripe"></div>
+    <div class="white stripe"></div>
+    <div class="red stripe"></div>
+</div>
+```
 
 ### CSS
 
-    :root{
-    --red:#ED2938;
-    --white:#FFF;
-    --blue:#002495;
-    --flag-height:150px;
-    }
+```css 
+    :root {
+    --red: #ED2938;
+    --white: #FFF;
+    --blue: #002495;
+    --flag-height: 150px;
+}
+```

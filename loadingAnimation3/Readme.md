@@ -11,24 +11,29 @@
 ## Hints
 
 - Use animation property and key frames.
-- Remember that the border property is a shorthand to style all four side of a border at once - you can individually style each side of an element's border using properties like border-top, border-right,etc.
+- Remember that the border property is a shorthand to style all four side of a border at once - you can individually
+  style each side of an element's border using properties like border-top, border-right,etc.
 
 ## Provided code
 
 ### HTML
 
-    <div class="container">
-        <div class="loader"></div>
-    </div>
+```html
+<div class="container">
+    <div class="loader"></div>
+</div>
+```
 
 ### CSS
 
-    html,
-    body {
-        margin: 0;
-    }
+```css
+html,
+body {
+    margin: 0;
+}
 
-    :root {
-        --spinner: #f3f3f3;
-        --spinner-active: purple;
-    }
+:root {
+    --spinner: #f3f3f3;
+    --spinner-active: purple;
+}
+```

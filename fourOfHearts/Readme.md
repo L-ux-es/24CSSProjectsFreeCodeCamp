@@ -12,33 +12,38 @@
 
 ### HTML
 
-    <div class="container">
-        <div class="card">
-            <div class="left">
-                <div>4</div>
-                <div>&hearts;</div>
-            </div>
-            <div class="middle">
-                <div>&hearts;</div>
-                <div>&hearts;</div>
-                <div>&hearts;</div>
-                <div>&hearts;</div>
-            </div>
-            <div class="right">
-                <div>4</div>
-                <div>&hearts;</div>
-            </div>
+```html
+
+<div class="container">
+    <div class="card">
+        <div class="left">
+            <div>4</div>
+            <div>&hearts;</div>
+        </div>
+        <div class="middle">
+            <div>&hearts;</div>
+            <div>&hearts;</div>
+            <div>&hearts;</div>
+            <div>&hearts;</div>
+        </div>
+        <div class="right">
+            <div>4</div>
+            <div>&hearts;</div>
         </div>
     </div>
+</div>
+```
 
 ### CSS
 
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-    }
+```css
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
 
-    :root {
-      --card-height: 200px;
-    }
+:root {
+    --card-height: 200px;
+}
+```

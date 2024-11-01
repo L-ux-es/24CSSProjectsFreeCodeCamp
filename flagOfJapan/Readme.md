@@ -17,23 +17,28 @@ Flag ratio: **5:4**
 
 Flag height: **200px**
 
-    .country-flag{
-     width:calc(200px*4/5);
-    }
+```css
+.country-flag {
+    width: calc(200px * 4 / 5);
+}
+
+```
 
 ## Provided code
 
 ### CSS
 
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      background: black;
-    }
+```css
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
 
-    :root {
-      --white: #FFFFFF;
-      --red: #BC022C;
-      --flag-height: 200px;
-    }
+:root {
+    --white: #FFFFFF;
+    --red: #BC022C;
+    --flag-height: 200px;
+}
+```

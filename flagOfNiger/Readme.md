@@ -18,34 +18,41 @@ Flag ratio: **5:4**
 
 Flag height: **200px**
 
-    .country-flag{
-     width:calc(200px*4/5);
-    }
+```css
+    .country-flag {
+    width: calc(200px * 4 / 5);
+}
+```
 
 ## Provided code
 
 ### HTML
 
-    <div class="flag flag-niger">
-        <div class="stripe orange"></div>
-        <div class="stripe white">
-          <div class="circle"></div>
-        </div>
-        <div class="stripe green"></div>
-      </div>
+```html
+
+<div class="flag flag-niger">
+    <div class="stripe orange"></div>
+    <div class="stripe white">
+        <div class="circle"></div>
+    </div>
+    <div class="stripe green"></div>
+</div>
+```
 
 ### CSS
 
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      background: black;
-    }
+```css
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
 
-    :root {
-      --orange: #E15307;  
-      --white: #FFFFFF;
-      --green: #10AF2A;
-      --flag-height: 200px;
-    }
+:root {
+    --orange: #E15307;
+    --white: #FFFFFF;
+    --green: #10AF2A;
+    --flag-height: 200px;
+}
+```
